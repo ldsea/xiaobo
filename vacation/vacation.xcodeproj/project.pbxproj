@@ -13,6 +13,9 @@
 		21090CE519FB8F5200FDF107 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21090CE419FB8F5200FDF107 /* Images.xcassets */; };
 		21090CE819FB8F5200FDF107 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21090CE619FB8F5200FDF107 /* LaunchScreen.xib */; };
 		21090CF419FB8F5200FDF107 /* vacationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21090CF319FB8F5200FDF107 /* vacationTests.swift */; };
+		2130E5F119FD35AF002FD7D6 /* AddVacationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130E5F019FD35AF002FD7D6 /* AddVacationViewController.swift */; };
+		2130E5F319FD36AE002FD7D6 /* VacationListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130E5F219FD36AE002FD7D6 /* VacationListTableViewController.swift */; };
+		2130E5F719FD375F002FD7D6 /* Vacation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2130E5F619FD375F002FD7D6 /* Vacation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		21090CED19FB8F5200FDF107 /* vacationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vacationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21090CF219FB8F5200FDF107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21090CF319FB8F5200FDF107 /* vacationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vacationTests.swift; sourceTree = "<group>"; };
+		2130E5F019FD35AF002FD7D6 /* AddVacationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddVacationViewController.swift; sourceTree = "<group>"; };
+		2130E5F219FD36AE002FD7D6 /* VacationListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VacationListTableViewController.swift; sourceTree = "<group>"; };
+		2130E5F619FD375F002FD7D6 /* Vacation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vacation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				21090CDD19FB8F5200FDF107 /* AppDelegate.swift */,
 				21090CDF19FB8F5200FDF107 /* ViewController.swift */,
+				2130E5F619FD375F002FD7D6 /* Vacation.swift */,
+				2130E5F019FD35AF002FD7D6 /* AddVacationViewController.swift */,
+				2130E5F219FD36AE002FD7D6 /* VacationListTableViewController.swift */,
 				21090CE119FB8F5200FDF107 /* Main.storyboard */,
 				21090CE419FB8F5200FDF107 /* Images.xcassets */,
 				21090CE619FB8F5200FDF107 /* LaunchScreen.xib */,
@@ -213,8 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2130E5F719FD375F002FD7D6 /* Vacation.swift in Sources */,
+				2130E5F319FD36AE002FD7D6 /* VacationListTableViewController.swift in Sources */,
 				21090CE019FB8F5200FDF107 /* ViewController.swift in Sources */,
 				21090CDE19FB8F5200FDF107 /* AppDelegate.swift in Sources */,
+				2130E5F119FD35AF002FD7D6 /* AddVacationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +422,7 @@
 				21090CF919FB8F5200FDF107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21090CFA19FB8F5200FDF107 /* Build configuration list for PBXNativeTarget "vacationTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +431,7 @@
 				21090CFC19FB8F5200FDF107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
